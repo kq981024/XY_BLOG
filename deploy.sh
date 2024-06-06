@@ -12,8 +12,8 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git remote add origin https://github.com/kq981024/XY_BLOG.git
-git branch -M master
+# git remote add origin https://github.com/kq981024/XY_BLOG.git
+# git branch -M master
 git push -f https://github.com/kq981024/XY_BLOG.git master:gh-pages
 
 cd -

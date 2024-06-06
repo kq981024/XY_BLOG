@@ -20,34 +20,39 @@ export default defineUserConfig({
     docsDir: 'example',
     lastUpdatedText: '',
     colorMode: 'dark',
-    // series 为原 sidebar
     series: {
       '/docs/tool/': [
         {
           text: '前端工具库',
-          children: ['api', 'theme'],
+          children: ['react', 'react-native'],
+          collapsible: true, // 默认展开，true 为折叠
         },
         {
           text: '后端工具库',
-          children: ['api', 'plugin'],
+          children: ['react', 'react-native'],
         },
         {
           text: '常规工具库',
-          children: ['api', 'plugin'],
+          children: ['react', 'react-native'],
         },
       ],
     },
+    // primaryColor: '#3aa675',
+    // catalogTitle: '自定义目录标题',
     repo: 'https://github.com/kq981024',
     navbar: [
       { text: '博客', link: '/', icon: 'Compass' },
       {
         text: '工具库',
         children: [
-          { text: '前端', link: '/docs/tool/api' },
-          { text: '后端', link: '/docs/tool/home' },
+          { text: '前端', link: '/docs/tool/react' },
+          { text: '后端', link: '/docs/tool/react-native' },
+          { text: '常规', link: '/docs/tool/react-native' },
         ],
+        icon: 'Document',
       },
     ],
+    autoSetBlogCategories: true,
     // commentConfig: {
     //   type: 'valine',
     //   options: {
