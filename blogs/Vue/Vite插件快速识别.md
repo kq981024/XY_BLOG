@@ -2,9 +2,9 @@
 title: Vite插件快速识别
 date: 2022-12-30
 tags:
-  - Vite
+  - 前端工程化
 categories: 
-  - Vue全家桶
+  - 前端工程化
 ---
 
 ## 前言

@@ -8,7 +8,6 @@ export default defineUserConfig({
   title: '心✌',
   description: 'Just playing around',
   bundler: viteBundler(),
-
   // bundler: webpackBundler(),
   theme: recoTheme({
     style: '@vuepress-reco/style-default',
