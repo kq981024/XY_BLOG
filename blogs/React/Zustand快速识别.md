@@ -7,13 +7,13 @@ categories:
     - React
 ---
 
-### 什么是Zustand
+## 什么是Zustand
 
 ##### 				`Zustand` 可以作为 React 应用中的一个状态管理器，跟`Vue`中的`Pinia`对标，基于 `Flux` 模型实现的小型、快速和可扩展的状态管理解决方案，拥有基于 `hooks` 的舒适的API。简单理解就是`React`先前的`Redux`状态管理较为繁琐，轻量简易化的`Zustand`近些年开始流行（真滴好用，强烈推荐），拿下拿下。
 
 ------
 
-### Zustand的定义与更改
+## Zustand的定义与更改
 
 - ##### create：定义一个状态，供给全局消费
 
@@ -97,10 +97,7 @@ categories:
   export default usePermissionsStore;
   ```
 
-
-------
-
-### Zustand的消费
+## Zustand的消费
 
 ##### 		所谓消费，其实就是使用和更改Zustand中的状态，但由于React的渲染机制，消费要“定性消费”即消费自己需要的，配合useShallow钩子实现多个状态选择的单一对象，浅比较。如果没有"理智消费"即会出现在该状态块中的任何一项出现变更时，重新渲染页面，导致性能问题。	
 
@@ -132,9 +129,7 @@ const treats = useBearStore(
 )
 ```
 
-------
-
-### Zustand的中间件
+## Zustand的中间件
 
 - ##### 持久化中间件(详见：[https://github.com/pmndrs/zustand/blob/main/docs/integrations/persisting-store-data.md](https://github.com/pmndrs/zustand/blob/main/docs/integrations/persisting-store-data.md))
 
@@ -186,9 +181,7 @@ const treats = useBearStore(
 
 - ##### 中间件总结：使用过程中肯定会有疑惑多个中间件应该如何嵌套，这个问题由于文档在不停变化，需要根据实际情况考虑
 
-------
-
-### Zustand总结    
+## Zustand总结    
 
 ##### 		Zustand是一款轻量化的状态管理工具，配合中间件可以方便的实现对全局状态的管理，好用滴很。篇幅有限，详情移步官网。[https://awesomedevin.github.io/zustand-vue/docs/introduce/what-is-zustand](https://awesomedevin.github.io/zustand-vue/docs/introduce/what-is-zustand)
 

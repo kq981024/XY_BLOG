@@ -7,13 +7,11 @@ categories:
   - React
 ---
 
-### 前言
+## 前言
 
 ​		React Native的强大生态不仅仅体现在其原生组件上，第三方的开源组件也可以极大丰富开发者的工具包，为应用添加独特的功能和样式提供更多可能性。前人造轮，后人开车。以下是日常开发中常用的第三方组件以及使用示例，不定期更新，欢迎参考。
 
-------
-
-### react-navigation
+## react-navigation
 
 ​		`react-navigation` 提供了应用导航的解决方案，包括堆栈导航、底部标签导航、抽屉导航。[详情](https://reactnavigation.org/)
 
@@ -41,9 +39,7 @@ const router = () => {
 export default router;
 ```
 
-------
-
-### react-native-vector-icons
+## react-native-vector-icons
 
 ​		`react-native-vector-icons` 是一个涵盖了多个图标集合的组件库，如FontAwesome、MaterialIcons等，[详情](https://github.com/oblador/react-native-vector-icons)
 
@@ -67,9 +63,7 @@ const App = () => {
 export default App;
 ```
 
-------
-
-### react-native-swiper
+## react-native-swiper
 
 ​		`react-native-swiper` 提供了滑动组件，用以构建引导页面或图片轮播。[详情](https://github.com/leecade/react-native-swiper)
 
@@ -94,9 +88,7 @@ const App = () => {
 export default App
 ```
 
-------
-
-### react-native-splash-screen
+## react-native-splash-screen
 
 ​		`react-native-splash-screen` 用于控制应用的启动屏幕，增加用户体验。
 
@@ -118,17 +110,13 @@ export default App
 
     ![](https://cdn.jsdelivr.net/gh/kq981024/Media/202406131828996.png)
 
-------
-
-### react-native-image-picker
+## react-native-image-picker
 
 ​		`react-native-image-picker` 用于从设备相册或者相机中选择图片或视频，[详见](https://github.com/react-native-image-picker/react-native-image-picker)。需要注意android和ios的兼容
 
 
 
-------
-
-### react-native-gesture-handler
+## react-native-gesture-handler
 
 ​	`react-native-gesture-handler` 提供了原生触摸和手势系统，与react-navigation等库搭配使用，提升用户使用体感
 
